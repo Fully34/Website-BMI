@@ -1,0 +1,17 @@
+.chart img {
+  height: 500px;
+  width:  550px;
+  margin-left: 500px;
+  float: right;
+}
+.clearfix {
+  overflow: auto;
+}
+.calculator {
+  height: 500px;
+  width: 400px;
+  background-color: gray;
+}
+.chart {
+  float: right;
+}

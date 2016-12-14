@@ -1,7 +1,8 @@
 $(document).ready(function(){
-  var h = $("#height").val();
-  var w = $("#weight").val();
-    $("#results").click(function(){
-      var bmi = w/(h)2;
+    $("#calculate").click(function(){
+      var h = $("#height").val();
+      var w = $("#weight").val();
+      var bmi = w/Math.pow(h, 2);
+      alert(bmi);
     });
 });

@@ -1,17 +1,46 @@
-.chart img {
-  height: 500px;
-  width:  550px;
-  margin-left: 500px;
-  float: right;
-}
-.clearfix {
-  overflow: auto;
-}
+
 .calculator {
-  height: 500px;
+  height: 200px;
   width: 400px;
   background-color: gray;
+  float: left;
+  border: 1px solid black;
+  border-radius: 5%;
+  margin-right: 10px
+}
+h1 {
+  text-align: center;
+  font-family: calibri;
+}
+p {
+  font-family: sans-serif;
+}
+ul{
+  font-family: sans-serif;
+}
+h2 {
+  text-align: center;
+}
+.calculate {
+  margin-left: 10px;
+}
+body {
+  background-color: #00acc1;
 }
 .chart {
-  float: right;
+  flex-flow: wrap;
+}
+img {
+  border: 1px solid black;
+  border-radius: 5%;
+  height: 300px;
+}
+#weight{
+  margin-left: 15px;
+}
+#height{
+  margin-left: 15px;
+}
+.calculator p {
+  margin-left: 10px;
 }
